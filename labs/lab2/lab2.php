@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+session_start();
+?>
+
 <html>
     <head>
         <style>
@@ -10,7 +14,6 @@
     
     <div id="main">    
         <?php
-        
         include 'inc/functions.php';
         play();
     

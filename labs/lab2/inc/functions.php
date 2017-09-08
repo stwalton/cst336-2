@@ -49,12 +49,16 @@ function displayPoints($randomValue1, $randomValue2, $randomValue3) {
                 case 3: $totalPoints = 900;
                         break;
             }
+            $_SESSION["total"] = $_SESSION["total"] + $totalPoints;
             echo "<h2>You Won $totalPoints points!</h2>";
+            echo "<h2>Total Points: $_SESSION[total]</h2>";
         } 
         else {
             echo "<h3> Try Again! </h3>";
         }
         echo "</div>";
 }
+
+
 
 ?>

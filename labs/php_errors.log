@@ -127,3 +127,33 @@
 [08-Sep-2017 06:42:03 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE) in /home/ubuntu/workspace/stwalton/labs/lab2/inc/functions.php on line 6
 [08-Sep-2017 06:42:03 UTC] PHP Stack trace:
 [08-Sep-2017 06:42:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 19:57:43 UTC] PHP Warning:  include(inc/total.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 19:57:43 UTC] PHP Stack trace:
+[08-Sep-2017 19:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 19:57:43 UTC] PHP Warning:  include(): Failed opening 'inc/total.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 19:57:43 UTC] PHP Stack trace:
+[08-Sep-2017 19:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:32 UTC] PHP Warning:  include(inc/total.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:32 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:32 UTC] PHP Warning:  include(): Failed opening 'inc/total.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:32 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:35 UTC] PHP Warning:  include(inc/total.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:35 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:35 UTC] PHP Warning:  include(): Failed opening 'inc/total.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:35 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:38 UTC] PHP Warning:  include(inc/total.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:38 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:38 UTC] PHP Warning:  include(): Failed opening 'inc/total.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:38 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:39 UTC] PHP Warning:  include(inc/total.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:39 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
+[08-Sep-2017 20:02:39 UTC] PHP Warning:  include(): Failed opening 'inc/total.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php on line 3
+[08-Sep-2017 20:02:39 UTC] PHP Stack trace:
+[08-Sep-2017 20:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab2/lab2.php:0
