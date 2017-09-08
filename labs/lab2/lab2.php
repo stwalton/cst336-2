@@ -23,6 +23,12 @@ session_start();
         <input type="submit" value="Spin!"/>
     </form>
             
-    </div>    
+    </div> 
+    
+    <?php
+    session_unset();
+    session_destroy();
+    ?>
+
 </body>
 </html>
