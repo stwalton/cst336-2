@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-image: url("../img/poker.jpg"); 
+    color: white; 
+    font-family: 'Wendy One', sans-serif;
+}
+
+.divDisplay {
+    font-size: 1.5em; 
+    text-align: left;
+    display: inline-block;
+}
+
+.divProfile {
+    display: inline;
+}
+
+.divHand_1 {
+    display: block;
+    font-size: 1em; 
+    padding-left: 10px; 
+    float: right;
+}
+#winnerText{
+    padding: 10px; 
+    text-align: center; 
+    font-size: 2.3em; 
+}
+#gameTime{
+    text-align: center; 
+}
+
+#padding {
+    padding-left: 10px;
+}
+
+#points {
+    display: inline;
+}
+
+#disHand {
+    margin: 0 3px;
+}
+
+#disPlayer {
+    display: inline;
+}
+
+form {
+    text-align: center;
+    padding: 15px;
+}
+
+.button {
+    font-size: 25px;
+    padding: 15px 32px;
+}
+
+#imgResize {
+    width: 120px;
+    float: left;
+}
+
+footer {
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+.foot {
+    padding-left: 10px;
+    float: left;
+}
