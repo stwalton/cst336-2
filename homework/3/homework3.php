@@ -13,7 +13,7 @@
         <h1>Quiz</h1>
     </header>
     
-    <body>
+<body>
         
        <div id="quiz">
            <form action="functions.php" method="post" id="quiz">
