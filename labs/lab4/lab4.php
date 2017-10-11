@@ -80,8 +80,7 @@
         ?>
             
         <!-- HTML form goes here! -->
-        <form>
-             <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
+        <form><word" value="<?=$_GET['keyword']?>"/>
             <input type = "radio" id = "lhorizontal" name = "layout" value = "horizontal">
             <label for = "Horizontal"></label><label for="lhorizontal"> Horizontal </label>
             <input type = "radio" id = "lvertical" name = "layout" value = "vertical">
@@ -99,4 +98,3 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
-
