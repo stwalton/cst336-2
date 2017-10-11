@@ -1,14 +1,14 @@
 body {
-    background-image: url("/stwalton/homework/3/img/hw3bkgrd2.png");
+    background-image: url("/stwalton/homework/3/img/hw3bkgrnd.PNG");
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size: 1920px 1080px;
     color:black;
     text-align: center;
 }
 
-h1{
+div{
     font-family: 'Freckle Face', cursive;
-    font-size:4em;
+    font-size:2em;
     margin-bottom: 0px;
 }
 
@@ -18,5 +18,9 @@ header, main, footer {
 
 
 footer {
+    color:Red;
+    position:absolute;
+    bottom:0;
+    width:100%;
     clear: left;
 }

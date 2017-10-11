@@ -4,7 +4,7 @@
         <title> Homework 3 - HTML Forms / PHP </title>
         <meta charset="utf-8">
         <style> 
-        
+         @import url("css/styles.css");
         </style>
        
     </head>
@@ -82,12 +82,23 @@
                     
                 </ol> 
                 
-                  <h3>Hit Submit once finished</h3>
+                  <h3>Hit submit when your done</h3>
                   <input type="submit" value="Submit" />
           
          </form> 
       
       </div>
+      
+        <footer>
+            <hr>
+            CST 336. 2017&copy; Walton <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purpose only. <br />
+             <csupic>
+                <img src="img/csumb-logo.jpg" alt="Picture on the bottom of the page" />
+            </csupic>
+            
+        </footer>
       
     </body>
     
