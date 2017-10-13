@@ -13,13 +13,13 @@
         <h1>Quiz</h1>
     </header>
     
-<body>
+        <body>
         
        <div id="quiz">
            <form action="functions.php" method="post" id="quiz">
               
               
-                <ol>
+                
                     
                     
                     
@@ -80,7 +80,6 @@
                     
                     
                     
-                </ol> 
                 
                   <h3>Hit submit when your done</h3>
                   <input type="submit" value="Submit" />
