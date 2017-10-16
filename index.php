@@ -29,6 +29,9 @@
         <li>    
             <a href="./labs/lab5/lab5.php">Lab 5</a>
         </li>
+        <li>
+            <a href="../phpMyAdmin/index.php">PHP Link</a>
+        </li>
     </ul>
 
 </body>

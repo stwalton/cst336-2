@@ -1,13 +1,15 @@
 <?php
 
     include '../../dbConnection.php';
+    // echo "Went passed db connection";
 
     $conn = getDatabaseConnection();
 
     function getDeviceTypes() {
+        echo "This works";
         global $conn;
-        $sql = "SELECT_DISTINCT(deviceType)
-            FROM 'tc_device'
+        $sql = "SELECT DISTINCT(deviceType)
+            FROM `tc_device`
             ORDER BY deviceType";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
@@ -20,7 +22,7 @@
 
     function displayDevices() {
         global $conn;
-        $sql = "SELECT * FROM `tc_device WHERE 1 ";
+        $sql = "SELECT * FROM tc_device WHERE 1 ";
     
         if(isset($_GET['submit'])) {
             $namedParameters = array();
@@ -79,9 +81,12 @@
             Device: <input type="text" name="deviceName" placeholder="Device Name"/>
             Type: 
             <select name="deviceType">
-                <option value="">Select One</option>
+                 <option>Select One</option>
                 <?=getDeviceTypes()?>
             </select>
+            
+            <input type="checkbox" name="available">
+            <label for="available"> Available </label>
             
             <br />
             Order by:
@@ -89,12 +94,9 @@
              <label for="orderByName"> Name </label>
             <input type="radio" name="orderBy" id="orderByPrice" value="price"/>
              <label for="orderByPrice"> Price </label>
-            <br />
             
-            <input type="checkbox" name="available">
-            <label for="available"> Available </label>
             
-            <input class="Submit" type="submit" name="submit" value="Search!">
+            <input type="submit" value="Search" name="submit" >
         </form>
         
         <hr>

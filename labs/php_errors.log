@@ -181,3 +181,310 @@ Stack trace:
 #1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(83): getDeviceTypes()
 #2 {main}
   thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 18:55:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(83): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 18:56:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(83): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 19:03:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/stwalton/dbConnection.php on line 22
+[16-Oct-2017 19:03:39 UTC] PHP Stack trace:
+[16-Oct-2017 19:03:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 19:03:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(83): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 19:05:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(83): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 19:09:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:11:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:15:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:15:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:16:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:16:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:17:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:20:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:21:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:21:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:23:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:24:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM `tc_device`
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:24:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(84): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:26:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:28:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:29:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:36:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:37:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:37:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:37:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:37:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:38:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:38:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:38:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:41:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:41:09 UTC] PHP Stack trace:
+[16-Oct-2017 19:41:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 19:41:09 UTC] PHP   2. getDeviceTypes() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:85
+[16-Oct-2017 19:41:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:41:12 UTC] PHP Stack trace:
+[16-Oct-2017 19:41:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 19:41:12 UTC] PHP   2. getDeviceTypes() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:85
+[16-Oct-2017 19:41:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 14
+[16-Oct-2017 19:41:13 UTC] PHP Stack trace:
+[16-Oct-2017 19:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 19:41:13 UTC] PHP   2. getDeviceTypes() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:85
+[16-Oct-2017 19:42:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:42:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:42:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:42:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:43:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:43:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:44:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
