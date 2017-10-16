@@ -488,3 +488,15 @@ Stack trace:
 #1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(85): getDeviceTypes()
 #2 {main}
   thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 19:52:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/stwalton/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/dbConnection.php(19): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(6): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/dbConnection.php on line 19
+[16-Oct-2017 19:52:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/stwalton/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/dbConnection.php(19): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(6): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/dbConnection.php on line 19
