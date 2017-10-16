@@ -14,3 +14,84 @@
 [13-Oct-2017 22:49:06 UTC] PHP Stack trace:
 [13-Oct-2017 22:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab4/lab4.php:0
 [13-Oct-2017 23:04:46 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/stwalton/labs/lab4/lab4.php on line 71
+[16-Oct-2017 03:11:27 UTC] PHP Fatal error:  Call to undefined function getDeviceTypes() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 03:11:27 UTC] PHP Stack trace:
+[16-Oct-2017 03:11:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 03:11:55 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php on line 4
+[16-Oct-2017 03:11:55 UTC] PHP Stack trace:
+[16-Oct-2017 03:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:0
+[16-Oct-2017 03:11:55 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:34
+[16-Oct-2017 03:11:55 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php on line 4
+[16-Oct-2017 03:11:55 UTC] PHP Stack trace:
+[16-Oct-2017 03:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:0
+[16-Oct-2017 03:11:55 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:34
+[16-Oct-2017 03:11:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php on line 5
+[16-Oct-2017 03:11:55 UTC] PHP Stack trace:
+[16-Oct-2017 03:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:0
+[16-Oct-2017 03:11:55 UTC] PHP   2. displayCheckoutHistory() /home/ubuntu/workspace/stwalton/labs/lab5/checkoutHistory.php:34
+[16-Oct-2017 03:13:17 UTC] PHP Fatal error:  Call to undefined function getDeviceTypes() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 15
+[16-Oct-2017 03:13:17 UTC] PHP Stack trace:
+[16-Oct-2017 03:13:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:05:30 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:05:30 UTC] PHP Stack trace:
+[16-Oct-2017 04:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:05:30 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:05:30 UTC] PHP Stack trace:
+[16-Oct-2017 04:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:05:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 5
+[16-Oct-2017 04:05:30 UTC] PHP Stack trace:
+[16-Oct-2017 04:05:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:34 UTC] PHP Warning:  include(.../.../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:34 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:34 UTC] PHP Warning:  include(): Failed opening '.../.../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:34 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 5
+[16-Oct-2017 04:06:34 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:47 UTC] PHP Warning:  include(.../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:47 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:47 UTC] PHP Warning:  include(): Failed opening '.../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:47 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 5
+[16-Oct-2017 04:06:47 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:56 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 3
+[16-Oct-2017 04:06:56 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:06:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 5
+[16-Oct-2017 04:06:56 UTC] PHP Stack trace:
+[16-Oct-2017 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:45:02 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/stwalton/dbConnection.php on line 11
+[16-Oct-2017 04:45:02 UTC] PHP Stack trace:
+[16-Oct-2017 04:45:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:0
+[16-Oct-2017 04:55:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(75): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 04:55:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(75): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
+[16-Oct-2017 04:55:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT_DISTINCT(deviceType)
+            FROM 'tc_device'
+            ORDER BY de' at line 1' in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php(75): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab5/lab5.php on line 13
