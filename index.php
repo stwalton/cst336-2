@@ -32,6 +32,9 @@
         <li>
             <a href="../phpMyAdmin/index.php">PHP Link</a>
         </li>
+        <li>
+            <a href="./labs/lab6/lab6.php">Lab 6</a>
+        </li>
     </ul>
 
 </body>
