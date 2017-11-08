@@ -71,10 +71,11 @@ function displayUsers() {
             
             <?php
             
-            $users =displayUsers();
+            $users=displayUsers();
             
             foreach($users as $user) {
                 
+                //echo $user['userId'] . '  ' . "[<a href='userInfo.php?userId=".$user['firstName']."'>$user['firstName']</a> ]" . "  " . $user['lastName'] . "<br />";
                 echo $user['userId'] . '  ' . $user['firstName'] . "  " . $user['lastName'] . "<br />";
                 echo "[<a href='updateUser.php?userId=".$user['userId']."'> Update </a> ]";
                 //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";

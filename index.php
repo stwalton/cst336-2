@@ -35,6 +35,9 @@
         <li>
             <a href="./labs/lab6/lab6.php">Lab 6</a>
         </li>
+        <li>
+            <a href="./Team_Project/index.php">Team Project</a>
+        </li>
     </ul>
 
 </body>
