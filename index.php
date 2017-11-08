@@ -38,6 +38,9 @@
         <li>
             <a href="./Team_Project/index.php">Team Project</a>
         </li>
+        <li>
+            <a href="./challenge/challenge_118.php">11-8-2017 Challenge</a>
+        </li>
     </ul>
 
 </body>
