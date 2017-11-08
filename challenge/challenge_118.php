@@ -14,13 +14,14 @@
             <input type="text" name="number1"><br>
             <input type="text" name="number2"><br>
             <input type="text" name="number3"><br>
-            <input type="submit" value="Submit"><br>
+            <input type="button" value="Submit" onclick="sort()"/><br>
             </form>
+            
             <p id="NumZone"> </p>
                 <p id="min"> </p>
                 <p id="max"> </p>
             <script type="text/javascript">
-                function sort(){
+                function sort() {
                 var num1 = document.getElementById("number1").value;
                 var num2 = document.getElementById("number2").value;
                 var num3 = document.getElementById("number3").value;
