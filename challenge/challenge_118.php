@@ -9,11 +9,11 @@
         </title>
         <body>
             <h1>Sorting Numbers</h1>
-            <form method='get' id="sort">
+            <form method='get' id="g">
             Enter 3 numers from 1 to 50: <br>
-            <input type="text" name="number1"><br>
-            <input type="text" name="number2"><br>
-            <input type="text" name="number3"><br>
+            <input type="text" id="number1"><br>
+            <input type="text" id="number2"><br>
+            <input type="text" id="number3"><br>
             <input type="button" value="Submit" onclick="sort()"/><br>
             </form>
             

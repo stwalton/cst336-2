@@ -41,6 +41,9 @@
         <li>
             <a href="./challenge/challenge_118.php">11-8-2017 Challenge</a>
         </li>
+        <li>
+            <a href="./labs/lab7/index-2.html">Lab 7</a>
+        </li>
     </ul>
 
 </body>
