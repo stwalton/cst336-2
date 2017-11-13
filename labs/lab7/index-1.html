@@ -60,7 +60,11 @@
             var selectedHint = "";
             var board = "";
             var remainingGuesses = 6;
-            var words = ["snake", "monkey", "beetle", "octopus", "horse"];
+            var words = [{word: "snake", hint: "It's a reptile"},
+                        {word: "monkey", hint: "It's a mammal" },
+                        {word: "beetle", hint: "It's an insect"},
+                        {word: "octopus", hint: "It's has six tennacles"},
+                        {word: "horse", hint: "What pulls a carriage"}];
             var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                             'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -80,10 +84,13 @@
             function pickWord() {
                 var randomInt = Math.floor( Math.random() * words.length );
                 selectedWord = words[randomInt].toUpperCase();
+                selectedHint = words[randomInt].hint;
                 //console.log(selectedWord);
             }
             
             function updateBoard() {
+                $("#word").empty();
+                
                 for (var letter of board) {
                     document.getElementById("word").innerHTML += letter + " ";
                 }
@@ -112,31 +119,61 @@
             
             
             function checkLetter(letter) {
+                var positions = new Array();
                 
-                var positions = [];
-                
+                //Put all the positions the letter exists in an array
                 for (var i=0; i < selectedWord; i++) {
-                    
                     if (letter == selectedWord[i]) {
-                        
                         positions.push(i);
-                        
                     }
-                    
                 }
                 
                 if (positions.length > 0) {
-                    
                     updateWord(positions, letter);
                     
-                } else {
+                    // Check to see if this is a winning guess
+                    if (!board.includes('_')) {
+                        endgame(true);
+                    }
                     
+                } else {
                     remainingGuesses--;
-                    $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png" );
+                   updateMan();
                 }
                 
+                if (remainingGuesses <= 0) {
+                    endGame(false);
+                }
                 
             }
+            
+            function updateMan() {
+                $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+            }
+            
+            function updateWord(positions, letter) {
+                for (var pos of positions) {
+                    board = replaceAt(board, pos, leter)
+                }
+                
+                updateBoard();
+            }
+            
+            //Helper function for replacing specific indexes in a string
+            function replaceAt(str, index, value) {
+                return str.substr(0,index) + value + str.substr(index + value.length);
+            }
+            
+            function endGame(win) {
+                $("#letters").hide();
+                
+                if (win) {
+                    $('#won').show();
+                } else {
+                    $('#lost').show();
+                }
+            }
+            
             
             //events
             
@@ -145,6 +182,8 @@
                 checkLetter( $(this).attr("id") );
                 
             });
+
+            
 
             
         </script>
