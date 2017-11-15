@@ -24,7 +24,7 @@
             <a href="./labs/lab4/lab4.php">Lab 4</a>
         </li>
         <li>
-            <a href="./homework/4/homework4.php">Homework 4</a>
+            <a href="./homework/4/index.html">Homework 4</a>
         </li>
         <li>    
             <a href="./labs/lab5/lab5.php">Lab 5</a>
