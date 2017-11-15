@@ -1,4 +1,4 @@
-function hittest(a, b){
+function hittest(a, b, c){
 	var aX1 = parseInt(a.style.left);
 	var aY1 = parseInt(a.style.top);
 	var aX2 = aX1 + parseInt(a.style.width)-1;

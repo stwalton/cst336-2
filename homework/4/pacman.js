@@ -17,6 +17,8 @@ var walls = new Array();
 
 var redGhost;
 var rgDirection;
+var blueGhost;
+var bgDirection;
 
 function loadComplete(){
 	output = document.getElementById('output');
@@ -32,6 +34,12 @@ function loadComplete(){
 	redGhost.style.top = '40px';
 	redGhost.style.width = '40px';
 	redGhost.style.height = '40px';
+	
+	blueGhost = document.getElementById('blueGhost');
+	blueGhost.style.left = '280px';
+	blueGhost.style.top = '320px';
+	blueGhost.style.width = '40px';
+	blueGhost.style.height = '40px';
 	
 	
 	loopTimer = setInterval(loop, 50);
@@ -110,8 +118,9 @@ function loop(){
     }
     
     moveRedGhost();    
+    moveBlueGhost();
     
-    if ( hittest(pacman, redGhost) ){
+    if ( hittest(pacman, redGhost, blueGhost) ){
         clearInterval(loopTimer);
     }
     
@@ -162,6 +171,53 @@ function moveRedGhost(){
     
     rgDirection = rgNewDirection;
 }
+
+function moveBlueGhost(){
+    //Move Blue Ghost
+    var bgX = parseInt(blueGhost.style.left);
+    var bgY = parseInt(blueGhost.style.top);
+    
+    var bgNewDirection;
+    
+    var bgOppositeDirection;
+    if(bgDirection=='left') bgOppositeDirection = 'right';
+    else if(bgDirection == 'right') bgOppositeDirection = 'left';
+    else if (bgDirection == 'down') bgOppositeDirection = 'up';
+    else if (bgDirection == 'up') bgOppositeDirection = 'down';
+    
+    do{
+        blueGhost.style.left = bgX + 'px';
+        blueGhost.style.top = bgY + 'px';
+        
+        do{
+            var r = Math.floor(Math.random()*4);
+            if(r==0) bgNewDirection = 'right';
+            else if (r==1) bgNewDirection = 'left';
+            else if (r==2) bgNewDirection = 'down';
+            else if (r==3) bgNewDirection = 'up';
+        } while ( bgNewDirection == bgOppositeDirection );
+
+    if(bgNewDirection == 'right'){
+        if(bgX>590) bgX = -30;
+        blueGhost.style.left = bgX + GHOST_SPEED + 'px';
+        }
+    else if(bgNewDirection == 'left') {
+        if(bgX < -30) bgX = 590;
+        blueGhost.style.left = bgX - GHOST_SPEED + 'px';
+        }
+    else if(bgNewDirection == 'down') {
+        if(bgX > 390) bgY = -30;
+        blueGhost.style.top = bgY + GHOST_SPEED + 'px';
+        }
+    else if(bgNewDirection == 'up') {
+        if(bgX <  -30) bgY = 390;
+        blueGhost.style.top = bgY - GHOST_SPEED + 'px';
+        } 
+    }while( hitWall(blueGhost) );
+    
+    bgDirection = bgNewDirection;
+}
+
 
 function tryToChangeDirection(){
     var originalLeft = pacman.style.left;
