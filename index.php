@@ -44,6 +44,9 @@
         <li>
             <a href="./labs/lab7/index.html">Lab 7</a>
         </li>
+        <li>
+            <a href="./labs/lab8/index.html">Lab 8</a>
+        </li>
     </ul>
 
 </body>
