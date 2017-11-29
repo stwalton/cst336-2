@@ -66,27 +66,36 @@
         
     }
    
-    $("#movie").ready( function() {
-        movienum = document.getElementById("movie").value;
-        $("movie").val(" ");
-        movieCrawl();
-    } ); 
+    //$("#movie").ready( function() {
+      //  movienum = document.getElementById("movie").value;
+        //$("movie").val(" ");
+        //movieCrawl();
+      //  window.location.reload();
+    // } ); 
     
-    $("#charsearch").ready( function() {
-        varSearch = document.getElementById("charsearch").value;
-        $("charsearch").val(" ");
-        searchChar(); 
-    } );
+    //$("#charsearch").ready( function() {
+        //varSearch = document.getElementById("charsearch").value;
+        //$("charsearch").val(" ");
+        //searchChar(); 
+       // window.location.reload();
+     //} );
    
     
-   // $(document).ready(  function(){
+    $(document).ready(  function(){
         
         
-       // $("#movie").change( function(){ movieCrawl(); } );
-        //$("#charsearch").change( function(){ searchChar(); } );
+       $("#movie").change( function(){ 
+        movienum = document.getElementById("movie").value;
+        $("movie").val(" ");
+         movieCrawl();
+       } );
+        $("#charsearch").change( function(){ 
+            varSearch = document.getElementById("charsearch").value;
+            $("charsearch").val(" ");
+            searchChar(); } );
         
         
-//    } ); //documentReady
+   } ); //documentReady
     
    
     
