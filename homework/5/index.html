@@ -65,26 +65,30 @@
         });//ajax
         
     }
-    
-    $(document).ready(  function(){
-        
-        
-        $("#movie").change( function(){ movieCrawl(); } );
-        $("#charsearch").change( function(){ searchChar(); } );
-        
-        
-    } ); //documentReady
-    
+   
     $("#movie").ready( function() {
         movienum = document.getElementById("movie").value;
         $("movie").val(" ");
+        movieCrawl();
     } ); 
     
     $("#charsearch").ready( function() {
         varSearch = document.getElementById("charsearch").value;
         $("charsearch").val(" ");
-        
+        searchChar(); 
     } );
+   
+    
+   // $(document).ready(  function(){
+        
+        
+       // $("#movie").change( function(){ movieCrawl(); } );
+        //$("#charsearch").change( function(){ searchChar(); } );
+        
+        
+//    } ); //documentReady
+    
+   
     
 </script>
 
