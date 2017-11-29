@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Homework 5: Swapi Api</title>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script>
+    
+    
+    function history() {
+        
+        var data = $("#varSearch");
+         $.ajax({
+
+            type: "post",
+            url: "addHistory.php",
+            dataType: "json",
+            success: function(data,status) {
+               alert("Data Saved:" + data);
+            
+            },
+            
+            });//ajax
+        
+    }    
+    
+    function searchChar(number) {
+    
+
+        
+    
+        $.ajax({
+
+            type: "GET",
+            url: "https://swapi.co/api/people/"+varSearch+"/",
+            success: function(data, status) {
+              
+                $("#disname").html(data.name);
+                $("#disheight").html(data.height);
+                $("#dishair").html(data.hair_color);
+                $("#disbirth").html(data.birth_year);
+                
+            },
+            
+
+        });//ajax
+        
+        
+    }
+    
+    function movieCrawl() {
+    
+        
+        
+        $.ajax({
+
+            type: "GET",
+            url: "https://swapi.co/api/films/"+movienum+"/",
+            success: function(data,status) {
+              
+                $("#crawlText").html(data.opening_crawl);
+                
+            },
+            
+
+        });//ajax
+        
+    }
+    
+    $(document).ready(  function(){
+        
+        
+        $("#movie").change( function(){ movieCrawl(); } );
+        $("#charsearch").change( function(){ searchChar(); } );
+        
+        
+    } ); //documentReady
+    
+    $("#movie").ready( function() {
+        movienum = document.getElementById("movie").value;
+        $("movie").val(" ");
+    } ); 
+    
+    $("#charsearch").ready( function() {
+        varSearch = document.getElementById("charsearch").value;
+        $("charsearch").val(" ");
+        
+    } );
+    
+</script>
+
+<body id="dummybodyid">
+    <h1> Star Wars Character Search</h1>
+    
+    <form onsubmit="history()">
+        <searchfield>
+            
+            <informationText>
+            Type in a number between 1-87. This will display a character and some of its infromation.
+            </informationText>
+            
+            <results>
+            
+            <br/>
+            <br/>
+            <input type="text" id="charsearch"><br/>
+            
+            Name: <span id="disname"></span> 
+            <br>
+            Height: <span id="disheight"></span> 
+            <br>
+            Hair Color:<span id="dishair"></span> 
+            <br>
+            Birth Year:<span id="disbirth"></span>
+            <br>
+             
+             <openCrawl>
+            
+            Movie: <select id="movie" name="crawl">
+                <option value="">Select movie to display opening crawl</option>
+                <option value="1">Star Wars Episode I: The Phantom Menace</option>
+                <option value="2">Star Wars Episode II: Attack of the Clones</option>
+                <option value="3">Star Wars Episode III: Revenge of the Sith</option>
+                <option value="4">Star Wars Episode IV: A New Hope</option>
+                <option value="5">Star Wars Episode V: The Empire Strikes Back</option>
+                <option value="6">Star Wars Episode VI: Return of the Jedi</option>
+                <option value="7">Star Wars Episode VII: The Force Awakens</option>
+                
+            </select>
+            
+            <br>
+            <span id="crawlText"></span>
+            
+            <br/>
+            
+            
+            <input type="submit" value="Save History">
+            <br/>
+            <br/>
+            
+            
+            </results>
+            
+        </searchfield>
+        
+    </form>
+    
+       
+            
+        </openCrawl>
+        
+    
+    <footer>
+            <hr>
+            CST 336. 2017&copy; Walton <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purpose only. <br />
+             <csupic>
+                <img src="img/csumb-logo.jpg" alt="Picture on the bottom of the page" />
+            </csupic>
+                
+            
+        
+            
+            
+        </footer>
+    
+    
+</body>

@@ -1,0 +1,32 @@
+body {
+    background-color:grey;
+    color:black;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size:4em;
+    margin-bottom: 0px;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+
+#table-header {
+    background-color: #351a00;
+}
+
+openCrawl {
+    
+    text-align: center;
+    
+}
+
+
+footer {
+    clear: left;
+}
+
+

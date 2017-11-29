@@ -47,6 +47,9 @@
         <li>
             <a href="./labs/lab8/index.html">Lab 8</a>
         </li>
+        <li>
+            <a href="./homework/5/index.html">Homework 5</a>
+        </li>
     </ul>
 
 </body>
