@@ -575,3 +575,39 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/stwalton/labs/lab6/addUser.php on line 48
 [06-Nov-2017 23:12:51 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/stwalton/labs/lab6/admin.php on line 78
+[01-Dec-2017 20:36:11 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab9/index.php on line 2
+[01-Dec-2017 20:36:11 UTC] PHP Stack trace:
+[01-Dec-2017 20:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab9/index.php:0
+[01-Dec-2017 20:36:11 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab9/index.php on line 2
+[01-Dec-2017 20:36:11 UTC] PHP Stack trace:
+[01-Dec-2017 20:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab9/index.php:0
+[01-Dec-2017 20:36:11 UTC] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/labs/lab9/index.php on line 13
+[01-Dec-2017 20:36:11 UTC] PHP Stack trace:
+[01-Dec-2017 20:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab9/index.php:0
+[01-Dec-2017 20:36:11 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/labs/lab9/index.php on line 13
+[01-Dec-2017 20:36:11 UTC] PHP Stack trace:
+[01-Dec-2017 20:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/labs/lab9/index.php:0
+[01-Dec-2017 20:38:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(62): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php on line 14
+[01-Dec-2017 20:40:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(62): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php on line 14
+[01-Dec-2017 20:43:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(62): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php on line 14
+[01-Dec-2017 20:43:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.adoptees' doesn't exist' in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php(62): getPetList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/labs/lab9/adoptions.php on line 14
