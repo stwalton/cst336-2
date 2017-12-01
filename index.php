@@ -51,10 +51,10 @@
             <a href="./homework/5/index.html">Homework 5</a>
         </li>
         <li>
-            <a href="./labs/lab9/index.html">Lab 9</a>
+            <a href="./labs/lab9/index.php">Lab 9</a>
         </li>
         <li>
-            <a href="./labs/lab10/index.html">Lab 10</a>
+            <a href="./labs/lab10/index.php">Lab 10</a>
         </li>
     </ul>
 
