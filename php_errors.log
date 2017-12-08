@@ -1,3 +1,213 @@
 [27-Sep-2017 19:58:02 UTC] PHP Fatal error:  Call to undefined function yearList() in /home/ubuntu/workspace/stwalton/practice/Chinese-Zodiac-Task.php on line 26
 [27-Sep-2017 19:58:02 UTC] PHP Stack trace:
 [27-Sep-2017 19:58:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/practice/Chinese-Zodiac-Task.php:0
+[06-Dec-2017 03:05:15 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 3
+[06-Dec-2017 03:05:15 UTC] PHP Stack trace:
+[06-Dec-2017 03:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/index.php:0
+[06-Dec-2017 03:05:15 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 3
+[06-Dec-2017 03:05:15 UTC] PHP Stack trace:
+[06-Dec-2017 03:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/index.php:0
+[06-Dec-2017 03:05:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 4
+[06-Dec-2017 03:05:15 UTC] PHP Stack trace:
+[06-Dec-2017 03:05:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/index.php:0
+[06-Dec-2017 03:18:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 28
+[06-Dec-2017 03:18:45 UTC] PHP Stack trace:
+[06-Dec-2017 03:18:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/index.php:0
+[06-Dec-2017 03:21:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 28
+[06-Dec-2017 03:21:17 UTC] PHP Stack trace:
+[06-Dec-2017 03:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/index.php:0
+[06-Dec-2017 03:28:04 UTC] PHP Parse error:  syntax error, unexpected 'works' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 31
+[06-Dec-2017 03:45:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 33
+[06-Dec-2017 21:21:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:21:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:25:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:26:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:27:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:28:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:29:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:31:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:32:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'computer_store.tc_admin' doesn't exist' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:50:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:50:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:50:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 21:50:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 20
+[06-Dec-2017 23:05:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 41
+[06-Dec-2017 23:05:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 41
+[07-Dec-2017 04:37:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 23
+[07-Dec-2017 04:37:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/login.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/login.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 23
+[07-Dec-2017 05:36:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 46
+[07-Dec-2017 05:37:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/stwalton/Final_project/login.php on line 46
+[08-Dec-2017 01:52:21 UTC] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 58
+[08-Dec-2017 01:52:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 51
+[08-Dec-2017 01:52:49 UTC] PHP Stack trace:
+[08-Dec-2017 01:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:52:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:52:49 UTC] PHP Stack trace:
+[08-Dec-2017 01:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:55:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 51
+[08-Dec-2017 01:55:38 UTC] PHP Stack trace:
+[08-Dec-2017 01:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:55:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:55:38 UTC] PHP Stack trace:
+[08-Dec-2017 01:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:55:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 51
+[08-Dec-2017 01:55:41 UTC] PHP Stack trace:
+[08-Dec-2017 01:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:55:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:55:41 UTC] PHP Stack trace:
+[08-Dec-2017 01:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:56:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 51
+[08-Dec-2017 01:56:40 UTC] PHP Stack trace:
+[08-Dec-2017 01:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:56:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:56:40 UTC] PHP Stack trace:
+[08-Dec-2017 01:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:58:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:58:36 UTC] PHP Stack trace:
+[08-Dec-2017 01:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 01:59:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 01:59:26 UTC] PHP Stack trace:
+[08-Dec-2017 01:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 02:00:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 02:00:13 UTC] PHP Stack trace:
+[08-Dec-2017 02:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 02:01:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 02:01:14 UTC] PHP Stack trace:
+[08-Dec-2017 02:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 02:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php on line 62
+[08-Dec-2017 02:04:42 UTC] PHP Stack trace:
+[08-Dec-2017 02:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/itemInfo.php:0
+[08-Dec-2017 02:23:04 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 47
+[08-Dec-2017 02:23:19 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 47
+[08-Dec-2017 02:24:12 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 47
+[08-Dec-2017 02:27:44 UTC] PHP Parse error:  syntax error, unexpected '"</h3>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index.php on line 47
+[08-Dec-2017 04:13:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/stwalton/Final_project/editInfo.php on line 18
+[08-Dec-2017 04:13:32 UTC] PHP Stack trace:
+[08-Dec-2017 04:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/editInfo.php:0
+[08-Dec-2017 04:13:32 UTC] PHP   2. component() /home/ubuntu/workspace/stwalton/Final_project/editInfo.php:44
+[08-Dec-2017 04:30:00 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/stwalton/Final_project/editInfo.php on line 24
+[08-Dec-2017 04:37:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `comp`
+            ORDER BY compId' at line 2' in /home/ubuntu/workspace/stwalton/Final_project/editInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/editInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/stwalton/Final_project/editInfo.php(57): components()
+#2 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/editInfo.php on line 21
+[08-Dec-2017 04:38:59 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/stwalton/Final_project/editInfo.php on line 23
+[08-Dec-2017 06:59:52 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 45
+[08-Dec-2017 06:59:52 UTC] PHP Stack trace:
+[08-Dec-2017 06:59:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:0
+[08-Dec-2017 07:42:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 37
+[08-Dec-2017 07:42:39 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 38
+[08-Dec-2017 07:42:39 UTC] PHP Stack trace:
+[08-Dec-2017 07:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:0
+[08-Dec-2017 07:43:15 UTC] PHP Parse error:  syntax error, unexpected 'added' (T_STRING) in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 38
+[08-Dec-2017 08:22:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '1.00')' at line 4' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:23:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '1')' at line 4' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:24:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:25:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:25:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '')' at line 4' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:32:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '', '')' at line 4' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(88): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 88
+[08-Dec-2017 08:37:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; '1', 'test')' at line 3' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(87): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 87
+[08-Dec-2017 08:39:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(87): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 87
+[08-Dec-2017 09:31:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comp' in 'field list'' in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(76): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 76

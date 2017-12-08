@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <title>
+        Admin Login Page
+    </title>
+    
+    <script>
+    
+        function login() {
+    
+                $.ajax({
+                    type: "post",
+                    url: "login.php",
+                    data:{ 
+                        username:username,
+                        password:password
+                    },
+                    success:function(response) {
+                        if(response=="success")
+                        {
+                            location.href="adminPage.php";
+                        } else 
+                        {
+                          alert("Wrong username or password. Please reenter information");  
+                        }
+                    }
+                     
+                } ); // end ajax
+            }
+        
+       
+         $(document).ready(  function(){
+            
+                    
+            $("#submitbtn").click(function(){
+                    password = document.getElementById("password").value;
+                    username = document.getElementById("username").value;
+                    
+                    //alert("this button works");
+                    login();
+                } ) ;
+        
+        
+   } ); //documentReady    
+            
+        
+        
+
+        
+    </script> 
+    </head>
+    <body>
+        
+        <top>
+            <h2>Admin Login Page</h2>
+        </top>
+        
+        <form>
+    
+            Username: <input type="text" id="username" name="username"/> <br />
+        
+            Password: <input type="password" id="password" name="password"/> <br />
+        
+            <input type="button" id="submitbtn" name="login" value="Login" />
+        
+        </form>
+        
+        <form action="index.php">
+            
+           <input type="submit" value="Back" />
+           
+        </form>
+        
+    </body>
+</html>

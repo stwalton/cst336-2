@@ -56,6 +56,9 @@
         <li>
             <a href="./labs/lab10/index.php">Lab 10</a>
         </li>
+        <li>
+            <a href="./Final_project/index.php">Final Project</a>
+        </li>
     </ul>
 
 </body>

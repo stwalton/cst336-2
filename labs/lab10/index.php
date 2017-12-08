@@ -19,6 +19,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" /> 
         <title> Lab 10: Photo Gallery </title>
     </head>
     <body>
