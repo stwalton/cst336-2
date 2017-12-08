@@ -211,3 +211,19 @@ Stack trace:
 #0 /home/ubuntu/workspace/stwalton/Final_project/addEntry.php(76): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 76
+[08-Dec-2017 11:28:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/stwalton/Final_project/index2.php on line 95
+[08-Dec-2017 11:29:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index2.php on line 68
+[08-Dec-2017 11:35:31 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index2.php on line 68
+[08-Dec-2017 11:40:29 UTC] PHP Parse error:  syntax error, unexpected '15' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index2.php on line 68
+[08-Dec-2017 11:40:41 UTC] PHP Parse error:  syntax error, unexpected '15' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/index2.php on line 68
+[08-Dec-2017 12:38:40 UTC] PHP Fatal error:  Call to undefined function components() in /home/ubuntu/workspace/stwalton/Final_project/addEntry.php on line 185
+[08-Dec-2017 12:38:40 UTC] PHP Stack trace:
+[08-Dec-2017 12:38:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/addEntry.php:0
+[08-Dec-2017 13:06:29 UTC] PHP Parse error:  syntax error, unexpected 'ItemId' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/adminPage.php on line 74
+[08-Dec-2017 13:08:08 UTC] PHP Parse error:  syntax error, unexpected 'actor_id' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/stwalton/Final_project/adminPage.php on line 76
+[08-Dec-2017 13:21:23 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/stwalton/Final_project/deleteEntry.php on line 12
+[08-Dec-2017 13:21:23 UTC] PHP Stack trace:
+[08-Dec-2017 13:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/deleteEntry.php:0
+[08-Dec-2017 13:22:29 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/stwalton/Final_project/deleteEntry.php on line 12
+[08-Dec-2017 13:22:29 UTC] PHP Stack trace:
+[08-Dec-2017 13:22:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/stwalton/Final_project/deleteEntry.php:0

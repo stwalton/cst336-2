@@ -114,60 +114,109 @@ if (isset($_GET['addItem'])) {
 
 ?>
 
-
 <!DOCTYPE html>
-<html>
-    <head>
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <title>Final Project: Add Entries</title>
+<html lang="en">
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final Project: Add Entries</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="adminPage.php">
+                        Admin Page
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Add Entires</h1>
+                <br>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <br>
+                <br>
+                
+                <form>
         
-    </head>
-    
-    <body>
-        
-        <h2>
-            Add Entries to Database
-        </h2>
-        
-        <form>
-        
-        <a href="adminPage.php">Back</a> <br> <br>
-            
-        Add components to table: <br>
-        <input type="text" name="compName" id="compName"> <br> 
-        <input type="submit" name="addComp" value="Add component"> <br>   
-        
-        <br>
-        
-        Add brand to table: <br>
-        <input type="text" name="brandName" id="brandName"> <br> 
-        <input type="submit" name="addBrand" value="Add brand"> <br>
-        
-        <br>
-        
-        Add new inventory: <br>
-        
-        Item Name: <input type="text" name="ItemName" id="ItemName"> <br>
-        
-        Description: <br>
-        <textarea name="description" id="description" rows="15" cols="30"></textarea> <br>
-        
-        Type of Component: <select name="compId" id="compId">
-            <option>Select Component</option>
-            <?=components()?>
-            </select> <br>
-        
-        Type of Brand: <select name="brandId" id="brandId">
-            <option>Select Brand</option>
-                <?=brands()?>
-        </select> <br>
-        
-        Item Price: <input type="text" name="priceId" id"priceId"> <br>
-        
-        <input type="submit" name="addItem" value="Add Item"> <br>
-        
-        </form>
-        
-    </body>
-    
+                    Add components to table: <br>
+                    <input type="text" name="compName" id="compName"> <br> 
+                    <input type="submit" name="addComp" value="Add component"> <br>   
+                    
+                    <br>
+                    
+                    Add brand to table: <br>
+                    <input type="text" name="brandName" id="brandName"> <br> 
+                    <input type="submit" name="addBrand" value="Add brand"> <br>
+                    
+                    <br>
+                    
+                    <h5>Add new item to inventory </h5>
+                    Item Name: <input type="text" name="ItemName" id="ItemName"> <br>
+                    
+                    Description: <br>
+                    <textarea name="description" id="description" rows="15" cols="30"></textarea> <br>
+                    
+                    Type of Component: <select name="compId" id="compId">
+                        <option>Select Component</option>
+                        <?=components()?>
+                        </select> <br>
+                    
+                    Type of Brand: <select name="brandId" id="brandId">
+                        <option>Select Brand</option>
+                            <?=brands()?>
+                    </select> <br>
+                    
+                    Item Price: <input type="text" name="priceId" id"priceId"> <br>
+                    
+                    <input type="submit" name="addItem" value="Add Item"> <br>
+                    
+                    </form>
+                
+                
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
 </html>

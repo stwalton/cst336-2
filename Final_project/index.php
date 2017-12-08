@@ -16,40 +16,80 @@ function initialDisplay() {
 ?>
 
 <!DOCTYPE html>
-<html>
-    <title>
-        Final Project - Computer Invetory
-    </title>
-    <head>
-        <style>
-            @import url("css/style.css");
-        </style>
-    </head>
-    
-    <body>
-        
-        <login>
-            <a href="adminLogin.html">Admin Login</a>
-        </login>
-        
-        <storeName>
-            <h1>Walton's workshop</h1>
-        </storeName>
-        
-        <buttons>
-            
-        </buttons>
-        
-        <?php
-        $list = initialDisplay();
-        foreach($list as $product) {
-            //$itemInfo = $product['ItemName'];
-            echo "<h3> " .$product['ItemName']. "</h3>";
-            echo "<a href='itemInfo.php?ItemId=".$product['ItemId']."'> More Information </a>";
-            //echo "<br>";
-            
-        }
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final Project: Computer Parts</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="adminLogin.html">
+                        Admin Login
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Computer Part's</h1>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <br>
+                <br>
+                <?php
+                $list = initialDisplay();
+                foreach($list as $product) {
+                    echo "<h4> " .$product['ItemName']. "</h4>";
+                    echo "price: $".$product['priceId'];
+                    echo "<br>";
+                    echo '<textarea name="description" rows="8" cols="30" readonly>'.$product['description'].'</textarea>';
+                    echo "<br>";
+                    echo "<br>";
+                    
+                }
         
         ?>
-    </body>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
 </html>

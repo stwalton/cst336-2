@@ -92,79 +92,127 @@ if (isset($_GET['updateInfo'])) {
 
 ?>
 
+
 <!DOCTYPE html>
-<html>
-    
-    <head>
-            
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final Project: Edit Entry</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="adminPage.php">
+                        Admin Page
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Edit Entry</h1>
+                <br>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <br>
+                <form>
         
-        <title>
-            Edit Information
-        </title>
-        
-    </head>
-    
-    <body>
-        <h3>Edit Information</h3>
-         <a href="adminPage.php">Back</a> <br>
-        
-        <form>
-        
-        <?php
-        $list = inventory();
-        ?>
-        
-        <input type="hidden" name="ItemId" value="<?=$list['ItemId']?>" />
-        Item Name: <input type="text" name="ItemName" id="ItemName" value="<?php echo ucfirst($list['ItemName']); ?>" /> <br>
-        Item Description: <br>
-        <textarea name="description" id="description" rows="15" cols="30"><?php echo ucfirst($list['description']); ?></textarea><br>
-        Item Price: <input type="text" name="priceId" id="priceId" value="<?php echo ucfirst($list['priceId']); ?>" /> <br>
-        
-        <?php 
-        //Get component name that the item is already under
-        $compid = $list['compId'];
-         $sql = "SELECT compName FROM comp WHERE compId = '$compid'";
-         $stmt = $conn->query($sql);	
-        $compname = $stmt->fetchAll();
-        
-        //Get brand name that the item is listed under
-        $brandid = $list['brandId'];
-         $sql = "SELECT brandName FROM brand WHERE brandId = '$brandid'";
-         $stmt = $conn->query($sql);	
-        $brandname = $stmt->fetchAll();
-        
-        ?>
-        
-        Component Type: <select name="compId" id="compId">
-            <option>
-                <?php  foreach ($compname as $compName) 
-                {
-        	        echo ucfirst($compName['compName']);
-                }
-            ?>
-            </option>
-            <?=components()?>
-        </select>
-        
-        <br>
-        
-        Brand: <select name="brandId" id="brandId">
-            <option>
-                 <?php  foreach ($brandname as $brand) 
-                        {
-        	                echo ucfirst($brand['brandName']);
-                        }
+                    <?php
+                    $list = inventory();
                     ?>
-            </option>
-                <?=brands()?>
-        </select>
-        
-        <br>
-        
-        <input type="submit"  name="updateInfo" value="Change Information">
-        
-        </form>
-    </body>
-    
+                    
+                    <input type="hidden" name="ItemId" value="<?=$list['ItemId']?>" />
+                    Item Name: <input type="text" name="ItemName" id="ItemName" value="<?php echo ucfirst($list['ItemName']); ?>" /> <br>
+                    Item Description: <br>
+                    <textarea name="description" id="description" rows="15" cols="30"><?php echo ucfirst($list['description']); ?></textarea><br>
+                    Item Price: <input type="text" name="priceId" id="priceId" value="<?php echo ucfirst($list['priceId']); ?>" /> <br>
+                    
+                    <?php 
+                    //Get component name that the item is already under
+                    $compid = $list['compId'];
+                     $sql = "SELECT compName FROM comp WHERE compId = '$compid'";
+                     $stmt = $conn->query($sql);	
+                    $compname = $stmt->fetchAll();
+                    
+                    //Get brand name that the item is listed under
+                    $brandid = $list['brandId'];
+                     $sql = "SELECT brandName FROM brand WHERE brandId = '$brandid'";
+                     $stmt = $conn->query($sql);	
+                    $brandname = $stmt->fetchAll();
+                    
+                    ?>
+                    
+                    Component Type: <select name="compId" id="compId">
+                        <option>
+                            <?php  foreach ($compname as $compName) 
+                            {
+                    	        echo ucfirst($compName['compName']);
+                            }
+                        ?>
+                        </option>
+                        <?=components()?>
+                    </select>
+                    
+                    <br>
+                    
+                    Brand: <select name="brandId" id="brandId">
+                        <option>
+                             <?php  foreach ($brandname as $brand) 
+                                    {
+                    	                echo ucfirst($brand['brandName']);
+                                    }
+                                ?>
+                        </option>
+                            <?=brands()?>
+                    </select>
+                    
+                    <br>
+                    
+                    <input type="submit"  name="updateInfo" value="Change Information">
+                    
+                </form>
+                
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
 </html>
