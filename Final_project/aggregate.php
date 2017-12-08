@@ -3,13 +3,30 @@ session_start();
 include 'dbConnection.php';
 $conn = getDatabaseConnection();
 
-// Get inventory to display
-function initialDisplay() {
+function countEntry() {
     global $conn;
-    $sql = "SELECT * FROM `inventory` ORDER BY `inventory`.`ItemId` ASC ";
+    $sql = "SELECT COUNT(ItemId) AS count FROM inventory";
     $statement = $conn->prepare($sql);
     $statement->execute();
-    $list = $statement->fetchAll(PDO::FETCH_ASSOC);
+    $list = $statement->fetch(PDO::FETCH_ASSOC);
+    return $list;
+}
+
+function avgPrice() {
+    global $conn;
+    $sql = "SELECT ROUND(AVG(priceId)) AS price FROM inventory";
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $list = $statement->fetch(PDO::FETCH_ASSOC);
+    return $list;
+}
+
+function totalPrice() {
+    global $conn;
+    $sql = "SELECT ROUND(SUM(priceId)) AS price2 FROM inventory";
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $list = $statement->fetch(PDO::FETCH_ASSOC);
     return $list;
 }
 
@@ -19,12 +36,13 @@ function initialDisplay() {
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Final Project: Admin Page</title>
+    <title>Simple Sidebar - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,18 +60,8 @@ function initialDisplay() {
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="index.php">
-                        Logout
-                    </a>
-                </li>
-                <li>
-                    <a href="addEntry.php">
-                        Add Entries
-                    </a>
-                </li>
-                <li>
-                    <a href="aggregate.php">
-                        Aggregate
+                    <a href="adminPage.php">
+                        Admin Page
                     </a>
                 </li>
                 
@@ -64,27 +72,31 @@ function initialDisplay() {
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <h1>Admin Page</h1>
+                <h1>Aggregate Report</h1>
+                <br>
+                <br>
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
                 <br>
                 <br>
+                <h5>Number of Entries</h5>
                 <?php
-                $list = initialDisplay();
-                foreach($list as $product) {
-                    echo "<h4> " .$product['ItemName']. "</h4>";
-                    echo "price: $".$product['priceId'];
-                    echo "<br>";
-                    echo '<textarea name="description" rows="8" cols="30" readonly>'.$product['description'].'</textarea>';
-                    echo "<br>";
-                    echo "<a href='editInfo.php?ItemId=".$product['ItemId']."'> Edit Entry </a>";
-                    echo "<br>";
-                    echo "<a href='deleteEntry.php?ItemId=".$product['ItemId']."'> Delete Entry </a>";
-                    echo "<br>";
-                    echo "<br>";
-                    
-                }
-        
-        ?>
+                $list = countEntry();
+                echo $list['count'];
+                ?>
+                <br>
+                <br>
+                <h5>Average Price</h5>
+                <?php
+                $list = avgPrice();
+                echo "$".$list['price'];
+                ?>
+                <br>
+                <br>
+                <h5>Total Price of All Inventory</h5>
+                <?php
+                $list = totalPrice();
+                echo "$".$list['price2'];
+                ?>
             </div>
         </div>
         <!-- /#page-content-wrapper -->

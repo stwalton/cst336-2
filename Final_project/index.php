@@ -3,6 +3,21 @@ session_start();
 include 'dbConnection.php';
 $conn = getDatabaseConnection();
 
+function orderPrice($order) {
+    global $conn;
+    if($order == 1) {
+        $sql = "SELECT * FROM `inventory` ORDER BY `inventory`.`priceId` ASC ";    
+    }
+    else {
+        $sql = "SELECT * FROM `inventory` ORDER BY `inventory`.`priceId` DESC ";
+    }
+    
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $list = $statement->fetchAll(PDO::FETCH_ASSOC);
+    return $list;
+}
+
 // Get inventory to display
 function initialDisplay() {
     global $conn;
@@ -58,8 +73,35 @@ function initialDisplay() {
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
                 <br>
                 <br>
+                
+                <form action='index.php' style='display:inline' method="get">
+                    <input type="submit" name="price" value="Search by Price" />
+                    <input type="radio" id="low" name="orderBy" value="1">
+                    <label for="price">Lowest</label>
+                    <input type="radio" id="high" name="orderBy" value="2">
+                    <label for="high">Highest</label>
+                </form>
+                
+                
+                <br>
+                <br>
                 <?php
-                $list = initialDisplay();
+                // Sorting
+                
+                $order = $_GET['orderBy'];
+                
+                if(isset($_GET['price'])) {
+                    $list = orderPrice($order);
+                }
+                elseif(isset($_GET['comp'])) {
+                    $list = orderComp();
+                }
+                else {
+                    $list = initialDisplay();   
+                }
+                
+                
+                
                 foreach($list as $product) {
                     echo "<h4> " .$product['ItemName']. "</h4>";
                     echo "price: $".$product['priceId'];

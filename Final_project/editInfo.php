@@ -137,6 +137,7 @@ if (isset($_GET['updateInfo'])) {
                 <br>
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
                 <br>
+                <br>
                 <form>
         
                     <?php

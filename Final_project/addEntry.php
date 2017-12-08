@@ -44,7 +44,6 @@ if (isset($_GET['addComp'])) {
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
-    alert("Component added");
 }
 
 //Add entry into brand table 
